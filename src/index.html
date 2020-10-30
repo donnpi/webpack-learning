@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 要引入编译过的文件，浏览器不太支持es6语法 -->
+    <!-- webpack-dev-sever生成了一个bundle.js,没有放在磁盘上，放到了内存中，是一个虚拟的隐藏文件，在项目根目录中 -->
+    <script src="/bundle.js"></script>
+</head>
+
+<body>
+    <input type="text" placeholder="this is the final test">
+    <!-- 实现各行变色 -->
+    <ul>
+        <li>01</li>
+        <li>02</li>
+        <li>03</li>
+        <li>04</li>
+        <li>05</li>
+        <li>06</li>
+        <li>07</li>
+        <li>08</li>
+    </ul>
+    <div id="box"></div>
+
+    <hr/>
+    <!-- 将来要被vue控制的区域 -->
+    <div id="app"></div>
+
+
+</body>
+
+</html>
